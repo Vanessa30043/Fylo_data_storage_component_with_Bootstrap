@@ -8,24 +8,81 @@
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+
 </head>
-<body>
 
-  You’ve used 815 GB of your storage
+  <body>
+     <style>
+    body {
+      background-image:url('images/bg-desktop.png');
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+       }
+      </style>
 
-  185 GB Left
+        <style>
+          .container {
+            width: 300px;
+            color:blue;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+          }
+         </style> 
+    
+        <section class="card fylo-box">
+                        
+        <img src="images/logo.svg" alt="Flyo company logo" class="company-logo">
+
+        <div class="icons">
+          <img src="images/icon-document.svg" alt="Document icon">
+          <img src="images/icon-folder.svg" alt="Folder icon">
+          <img src="images/icon-upload.svg" alt="Upload icon">
+
+         
+        
+
+        </div>
+      </section>
+
+      <section class="card storage-box">
+        <p>You’ve used <strong>815 GB </strong> of your storage</p>
+        <div class="progress bar">
+
+          <div class="progress"></div>
+          <progress id="storage" max="100" value="70">70%</progress>
+
+        </div>
+
+        <div class="gb values"
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </div>
+
+      </section>
+
+
+
+
+        
+
+
   
-  0 GB
-  1000 GB
+
+
+
+
+
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      
+    </main>
+  </body>
 </html>
