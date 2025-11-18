@@ -32,3 +32,7 @@ body{
     background:linear-gradient(to right, #FF8A8A, #FF4AD8); /* CSS MDN WEB DOCS LINEAR-GRADIENT*/
     border-radius: 20px;
 }
+.comment-box{
+    border-radius:10px;
+    transform: translate(-40%, -50%);
+}
