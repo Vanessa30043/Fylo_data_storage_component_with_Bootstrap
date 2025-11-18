@@ -89,3 +89,20 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+5. Reflection
+
+Write a brief reflection (100-200 words) 
+
+Discussing:
+
+Challenges you encountered during the project.
+Your approach to solving these challenges.
+Improvements you would make if given more time.
+
+
+Progress bar and the mobile layout was not aligning correctly.
+Focused more on the layout first and worked from left to right.
+First, by creating columns then adding compenents within the component. I would figure out how to fix the white space in the background. And improve the mobile version display.
+
+
